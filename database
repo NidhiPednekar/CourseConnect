@@ -1,0 +1,159 @@
+CREATE DATABASE College;
+
+USE College;
+
+CREATE TABLE Colleges (
+    CID INT AUTO_INCREMENT PRIMARY KEY,
+    CName VARCHAR(300) NOT NULL,
+    Addr VARCHAR(500) NOT NULL,
+    Contact VARCHAR(15)
+);
+
+INSERT INTO Colleges (CName, Addr, Contact)
+VALUES
+('Indian Institute of Management Ahmedabad', 'Vastrapur, Ahmedabad, Gujarat, 380015', '079-6632-3456'),
+('Symbiosis Institute of Business Management', 'Gram Lavale, Tal Mulshi, Pune, Maharashtra, 412115', '020-2811-1234'),
+('International Management Institute', 'B-10, Qutab Institutional Area, Tara Crescent, New Delhi, Delhi, 110016', '011-4719-4100'),
+('Indian Institute of Management Bangalore', 'Bannerghatta Road, Bangalore, Karnataka, 560076', '080-2699-3013'),
+('XLRI - Xavier School of Management', 'Circuit House Area (East), Jamshedpur, Jharkhand, 831001', '0657-665-3333'),
+('Indian School of Business', 'Gachibowli, Hyderabad, Telangana, 500111', '040-2300-7000'),
+('Amity University', 'Sector 125, Noida, Uttar Pradesh, 201313', '0120-439-2000'),
+('Faculty of Management Studies', 'University of Delhi, North Campus, New Delhi, Delhi, 110007', '011-2766-6382'),
+('Narsee Monjee Institute of Management Studies', 'JVPD Scheme, Vile Parle West, Mumbai, Maharashtra, 400056', '022-4235-5555'),
+('National Institute of Technology Tiruchirappalli', 'Tanjore Main Road, NH67, Tiruchirappalli, Tamil Nadu, 620015', '0431-250-3000'),
+('Indian Institute of Technology Kharagpur', 'Kharagpur, West Bengal, 721302', '03222-255-221'),
+('University of Delhi', 'New Delhi, Delhi, 110007', '011-2766-6348'),
+('Lovely Professional University', 'Jalandhar-Delhi G.T. Road (NH-1), Phagwara, Punjab, 144411', '01824-404-404'),
+('Vellore Institute of Technology', 'Vellore, Tamil Nadu, 632014', '0416-220-2020'),
+('Christ University', 'Hosur Road, Bangalore, Karnataka, 560029', '080-4012-9600'),
+('T. A. Pai Management Institute', 'Manipal, Karnataka, 576104', '0820-270-1000'),
+('Indian Institute of Technology Bombay', 'Powai, Mumbai, Maharashtra, 400076', '022-2572-2545'),
+('Birla Institute of Technology and Science', 'Vidya Vihar, Pilani, Rajasthan, 333031', '01596-245-073'),
+('Indian Institute of Technology Madras', 'Sardar Patel Road, Chennai, Tamil Nadu, 600036', '044-2257-8280'),
+('Indian Institute of Technology Kanpur', 'Kalyanpur, Kanpur, Uttar Pradesh, 208016', '0512-259-0151'),
+('Indian Institute of Technology Roorkee', 'Roorkee, Uttarakhand, 247667', '01332-285-311'),
+('Indian Institute of Technology Delhi', 'Hauz Khas, New Delhi, Delhi, 110016', '011-2659-7135'),
+('Indian Institute of Management Lucknow', 'Prabandh Nagar, IIM Road, Lucknow, Uttar Pradesh, 226013', '0522-273-4101'),
+('Indian Institute of Technology Guwahati', 'Amingaon, Guwahati, Assam, 781039', '0361-258-3000'),
+('Indian Institute of Technology Hyderabad', 'Kandi, Sangareddy, Telangana, 502285', '040-2301-6033'),
+('Jamnalal Bajaj Institute of Management Studies', '164, Backbay Reclamation, H.T. Parekh Marg, Churchgate, Mumbai, Maharashtra, 400020', '022-2202-4133'),
+('SP Jain Institute of Management and Research', 'Bhavan\'s Campus, Munshi Nagar, Andheri West, Mumbai, Maharashtra, 400058', '022-2623-0396'),
+('Indian Institute of Management Indore', 'Prabandh Shikhar, Rau-Pithampur Road, Indore, Madhya Pradesh, 453556', '0731-243-9666'),
+('Institute of Management Technology', 'Raj Nagar, Post Box No. 137, Ghaziabad, Uttar Pradesh, 201001', '0120-300-2200'),
+( 'National Institute of Industrial Engineering', 'Vihar Lake Road, Powai, Mumbai, Maharashtra, 400087', '022-2857-3371'),
+('Indian Institute of Management Calcutta', 'Diamond Harbour Road, Joka, Kolkata, West Bengal, 700104', '033-2467-8300'),
+('Management Development Institute', 'Mehrauli Road, Sukhrali, Gurgaon, Haryana, 122007', '0124-456-0000'),
+('Indian Institute of Technology Gandhinagar', 'Palaj, Gandhinagar, Gujarat, 382355', '079-2395-2051'),
+('Indian Institute of Management Kozhikode', 'IIMK Campus P. O., Kunnamangalam, Kozhikode, Kerala, 673570', '0495-280-9100'),
+('Shailesh J. Mehta School of Management', 'Powai, Mumbai, Maharashtra, 400076', '022-2576-7750'),
+('Indian Institute of Information Technology Bangalore', 'Electronic City, Hosur Road, Bangalore, Karnataka, 560100', '080-4140-7777'),
+('Tata Institute of Social Sciences', 'V.N. Purav Marg, Deonar, Mumbai, Maharashtra, 400088', '022-2552-5000'),
+('Indian Institute of Management Shillong', 'Mayurbhanj Complex, Nongthymmai, Shillong, Meghalaya, 793014', '0364-230-8039'),
+('Xavier Institute of Management Bhubaneswar', 'Xavier Square, Jayadev Vihar, Bhubaneswar, Odisha, 751013', '0674-664-7777'),
+('Indian Institute of Technology Patna', 'Bihta, Patna, Bihar, 801106', '0612-302-8068'),
+('SP Jain School of Global Management', 'Sydney, Dubai, Singapore, Mumbai, Maharashtra, 400065', '022-6170-4000'),
+('National Institute of Technology Warangal', 'Warangal, Telangana, 506004', '0870-245-9191'),
+('Indian Institute of Management Ranchi', 'Suchana Bhawan, 5th Floor, Audrey House Campus, Meurs Road, Ranchi, Jharkhand, 834008', '0651-228-0113'),
+('FORE School of Management', 'Adhitam Kendra, B-18, Qutub Institutional Area, New Delhi, Delhi, 110016', '011-4124-2424'),
+('Indian Institute of Technology Jodhpur', 'NH 65, Nagaur Road, Karwar, Rajasthan, 342037', '0291-280-1093'),
+('Indian Institute of Management Rohtak', 'M.D University Campus, Rohtak, Haryana, 124001', '01262-228-522'),
+('Institute of Rural Management Anand', 'Post Box No. 60, Anand, Gujarat, 388001', '02692-260-391'),
+('Indian Institute of Technology Mandi', 'Parashar Road, Tehsil Sadar, Mandi, Himachal Pradesh, 175005', '01905-237-989'),
+('Great Lakes Institute of Management', 'East Coast Road, Manamai Village, Thirukazhukundram, Tamil Nadu, 603102', '044-3080-9000'),
+('Indian Institute of Information Technology Allahabad', 'Devghat, Jhalwa, Prayagraj, Uttar Pradesh, 211015', '0532-292-2025');
+
+CREATE TABLE IF NOT EXISTS Courses (
+    CourseID INT AUTO_INCREMENT PRIMARY KEY,
+    CourseName VARCHAR(300) NOT NULL,
+    CollegeID INT,
+    FOREIGN KEY (CollegeID) REFERENCES Colleges(CID)
+);
+
+-- Indian Institute of Management Ahmedabad (IIMA)
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('MBA', 1),
+('MBA-FABM', 1),
+('MBA-PGPX', 1),
+('ONLINE MBA', 1),
+('ePGD-ABA', 1);
+
+-- Symbiosis Institute of Business Management (SIBM)
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 2),
+('Executive MBA (EMBA)', 2),
+('Post Graduate Diploma in Business Analytics (PGDBA)', 2),
+('Post Graduate Diploma in Management (PGDM)', 2);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('PGDM (Post Graduate Diploma in Management)', 3),
+('EXPGDM (Executive Post Graduate Diploma in Management)', 3),
+('FPM (Fellow Program in Management)', 3),
+('PGCBA (Post Graduate Certificate in Business Analytics)', 3);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('MBA', 4),
+('MBA (BA)', 4);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Executive Development Programme in Digital Transformation Strategies (DTS)', 5),
+('EDP in Blockchain for Senior Managers -1', 5),
+('EDP in Advanced Product Management (APM) Batch 4', 5);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Post Graduate Program in Management (PGP)', 6),
+('Post Graduate Program in Management for Senior Executives (PGPMAX)', 6),
+('Advanced Management Program in Business Analytics (AMPBA)', 6),
+('Certificate Program in Business Analytics (CPBA)', 6);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Bachelor of Computer Applications (BCA)', 7),
+('Master of Computer Applications (MCA)', 7),
+('Bachelor of Business Administration (BBA)', 7),
+('Master of Business Administration (MBA)', 7);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 8),
+('Executive MBA (EMBA)', 8);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 9),
+('Executive MBA (EMBA)', 9),
+('Post Graduate Diploma in Management(PGDM)(Management Program for Executives)', 9),
+('Bachelor of Technology in Computer Engineering (BTech-CE)', 9),
+('Direct 2nd Year of B.Tech. & MBA Tech. Programs(Only for vacant seats)',9),
+('Master of Computer Applications (MCA)',9),
+('MBA Tech (B.Tech. + MBA Tech.)Dual Degree Integrated Program Computers Engineering',9);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Computer Applications (MCA)', 10),
+('Master of Business Administration (MBA)', 10),
+('Master of Technology in Computer Science and Engineering (MTech-CSE)', 10),
+('Master of Technology in Information Technology (MTech-IT)', 10);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Technology in Computer Science and Engineering (MTech-CSE)', 11),
+('Master of Technology in Information Technology (MTech-IT)', 11),
+('Master of Business Administration (MBA)', 11),
+('Executive MBA (EMBA)', 11);
+
+UPDATE Colleges
+SET CName = 'College of Vocational Studies',
+    Addr = 'Sheikh Sarai, Phase II, New Delhi, Delhi, 110017',
+    Contact = '011-2925-0486'
+WHERE CID = 12; 
+
+
+
+
+
