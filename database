@@ -69,7 +69,6 @@ CREATE TABLE IF NOT EXISTS Courses (
     FOREIGN KEY (CollegeID) REFERENCES Colleges(CID)
 );
 
--- Indian Institute of Management Ahmedabad (IIMA)
 INSERT INTO Courses (CourseName, CollegeID)
 VALUES
 ('MBA', 1),
@@ -78,7 +77,6 @@ VALUES
 ('ONLINE MBA', 1),
 ('ePGD-ABA', 1);
 
--- Symbiosis Institute of Business Management (SIBM)
 INSERT INTO Courses (CourseName, CollegeID)
 VALUES
 ('Master of Business Administration (MBA)', 2),
@@ -153,6 +151,132 @@ SET CName = 'College of Vocational Studies',
     Contact = '011-2925-0486'
 WHERE CID = 12; 
 
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Bachelor of Management Studies (B.M.S.)',12),
+('Bachelor of Arts (B.A.) in Human Resource Management',12),
+('Bachelor of Arts (B.A.) in Marketing Management and Retail Business',12),
+('Bachelor of Arts (B.A.) in Office Management and Secretarial Practice',12),
+('Bachelor of Science (Honours) [B.Sc. (Hons.)] in Computer Science',12);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('B.Tech in Computer Science and Engineering',13),
+('BCA (Bachelor of Computer Applications)',13),
+('M.Tech in Computer Science and Engineering',13),
+('MCA (Master of Computer Applications)',13),
+('BBA (Bachelor of Business Administration)',13),
+('Integrated BBA-MBA',13),
+('MBA (Master of Business Administration)',13);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('B.Tech - Computer Science and Engineering', 14),
+('B.Tech - Computer Science and Engineering (Artificial Intelligence and Machine Learning)', 14),
+('B.Tech - Computer Science and Engineering (Artificial Intelligence and Data Engineering)', 14),
+('B.Tech - Computer Science and Engineering (Bioinformatics)', 14),
+('B.Tech - Computer Science and Engineering (Cyber Security)', 14),
+('B.Tech - Computer Science and Engineering (Information Security)', 14),
+('B.Tech - Computer Science and Engineering (Internet of Things)', 14),
+('B.Tech - Computer Science and Engineering and Business Systems (in collaboration with TCS)', 14),
+('B.Tech - Computer Science and Engineering (Data Science)', 14),
+('B.Tech - Computer Science and Engineering (Block Chain Technology)', 14),
+('B.Tech - Electrical and Computer Science Engineering', 14),
+('B.Tech - Information Technology', 14),
+('M.Tech - Computer Science and Engineering', 14),
+('M. Tech - Computer Science and Engineering (Artificial Intelligence and Machine Learning)', 14),
+('M. Tech - Computer Science and Engineering (Big Data Analytics)', 14),
+('M. Tech - Computer Science and Engineering (Information Security)', 14),
+('M.Tech - IoT and Sensor Systems', 14),
+('M.Tech - Embedded Systems', 14),
+('Integrated M.Tech - Software Engineering', 14),
+('Integrated M.Tech - Computer Science and Engineering (in collaboration with Virtusa)', 14),
+('Integrated M.Tech - Computer Science and Engineering (Data Science)', 14),
+('M.C.A. (Master of Computer Applications)', 14),
+('MBA (Master of Business Administration)', 14),
+('M.Sc. Business Statistics', 14);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Bachelor of Computer Applications (BCA)', 15),
+('Bachelor of Science (B.Sc) in Computer Science', 15),
+('Master of Computer Applications (MCA)', 15),
+('Master of Science (M.Sc) in Computer Science', 15),
+('Bachelor of Business Administration (BBA)', 15),
+('Master of Business Administration (MBA)', 15),
+('Postgraduate Diploma in Management (PGDM)', 15);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Online MBA – BKFS (MBA in Banking, Finance, and Insurance)', 16),
+('MBA (Master of Business Administration)', 16),
+('MBA-BKFS (MBA in Banking, Finance, and Insurance)', 16),
+('MBA-HRM (MBA in Human Resource Management)', 16),
+('MBA-Marketing (MBA in Marketing)', 16),
+('MBA-IB (MBA in International Business)', 16),
+('MBA-Technology Management (MBA in Technology Management)', 16);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 17),
+('IDDDP', 17),
+('Doctoral Programme', 17),
+('Management Development Programme', 17),
+('Joint EMBA Programme', 17);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('M.Tech. CSE (Master of Technology in Computer Science and Engineering)', 18),
+('M.Tech. ECE (Master of Technology in Electronics and Communication Engineering)', 18),
+('B.Tech. & Integrated M.Tech. (Bachelor of Technology and Integrated Master of Technology)', 18),
+('Master of Science (Digital Society)', 18),
+('Post Graduate Programme', 18),
+('Ph.D. & Master of Science by Research', 18);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Arts in Education and Technology', 19),
+('Post Graduate Diploma in Psychotherapy and Counselling with Children and Adolescents (PGD-PCCA)', 19),
+('Post Graduate Diploma in Supervision for Mental Health Practice', 19),
+('Executive Postgraduate Diploma in Human Resources Management', 19),
+('Executive Postgraduate Diploma in Organisation Development, Change and Leadership (EPGDODCL)', 19),
+('P.G. Diploma in Digital Library & Information Management (ODL Programme)', 19),
+('EXECUTIVE POSTGRADUATE DIPLOMA IN ANALYTICS (EPGDA)', 19),
+('Post Graduate Diploma in Healthcare Quality Management (PGDHQM)', 19);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('PGPM (Post Graduate Program in Management)', 20),
+('Ph.D (Doctor of Philosophy)', 20),
+('PG Certificate (Post Graduate Certificate)', 20),
+('EMBA (Executive Master of Business Administration)', 20),
+('PGPEX (Post Graduate Program for Executives)', 20);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('EMBA-BM (Executive Master of Business Administration with a specialization in Business Management)', 21),
+('MBA-BM/EMBA-BM (Master of Business Administration with a specialization in Business Management or Executive Master of Business Administration with a specialization in Business Management)', 21),
+('MBA-BM (Master of Business Administration with a specialization in Business Management)', 21);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Bachelor of Technology (B.Tech) in Computer Science and Engineering', 22),
+('Bachelor of Technology (B.Tech) in Information Technology', 22),
+('Master of Technology (M.Tech) in Computer Science and Engineering', 22),
+('Master of Technology (M.Tech) in Information Technology', 22),
+('Master of Business Administration (MBA)', 22),
+('Ph.D. in Management', 22);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('M.Sc International Hospitality Business', 23),
+('Bachelor of Economics', 23),
+('BBA', 23),
+('Professional Certification In FinTech', 23),
+('Executive MBA', 23),
+('Master in Global Luxury Goods and Services Management with MIUR, Italy', 23),
+('Bachelor of Data Science', 23),
+('Advanced Project Management and Strategic Leadership', 23);
 
 
 
