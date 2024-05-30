@@ -278,6 +278,106 @@ VALUES
 ('Bachelor of Data Science', 23),
 ('Advanced Project Management and Strategic Leadership', 23);
 
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Ph.D. (Computer Science and Engineering)', 24),
+('Ph.D. (Electronics and Communications Engineering)', 24),
+('Ph.D. (Electrical Engineering)', 24),
+('Ph.D. (Management)', 24),
+('B.Tech (Bachelor of Technology)', 24),
+('M.Tech (Master of Technology)', 24),
+('B.Sc + M.Sc (Bachelor of Science + Master of Science)', 24),
+('M.Sc (Master of Science)', 24),
+('MCA (Master of Computer Applications)', 24),
+('MBA (Master of Business Administration)', 24);
 
+INSERT INTO Courses (CourseName, CollegeID) 
+VALUES
+('Master of Business Administration (MBA)', 25),
+('Integrated Programme in Management (IPM)', 25),
+('Executive Master of Business Administration (EMBA)', 25),
+('Ph.D. (Executive)', 25),
+('Ph.D. (Organizational Behavior and Human Resources)', 25),
+('Ph.D. (Economics)', 25),
+('Executive Program in Business Analytics & Business Intelligence (EPBABI)', 25),
+('Ph.D. (Marketing)', 25),
+('Ph.D. (Operation Management)', 25),
+('Ph.D. (Finance & Accounts)', 25),
+('Ph.D. (Strategy & Entrepreneurship)', 25),
+('Ph.D. (Information Systems & Business Analytics)', 25);
+
+INSERT INTO Courses (CourseName, CollegeID) 
+VALUES
+('Post Graduate Diploma in Management (PGDM)', 26),
+('Post Graduate Diploma in Management (PGDM) (Executive)', 26),
+('Fellow Programme in Management (FPM)', 26),
+('Executive Fellow Program in Management (EFPM)', 26);
+
+INSERT INTO Courses (CourseName, CollegeID) VALUES
+('Bachelor of Technology [B.Tech]', 27),
+('Post Graduate Diploma in Data Analytics and Cloud Computing', 27),
+('Master of Technology [M.Tech] ', 27),
+('Master of Science [M.Sc]', 27),
+('Master of Science [M.Sc] + Master of Technology [M.Tech]', 27),
+('Master of Technology [M.Tech] + Ph.D.', 27),
+('Master of Science [MS]', 27),
+('Executive Master of Technology [Ex.M.Tech] (Data Science)', 27),
+('Ph.D. (Computer Science and Engineering)', 27),
+('Ph.D. (Internet of Things)', 27),
+('Master of Business Administration [MBA]', 27),
+('Ph.D. (Economics)', 27),
+('Ph.D. (Management)', 27),
+('Ph.D. (Finance & Accounts)', 27),
+('Ph.D. (Operations Management & Decision Science)', 27),
+('Ph.D. (Transformation and Business Intelligence)', 27),
+('Ph.D. (Marketing)', 27),
+('Ph.D. (Strategy and Public Policy)', 27),
+('Ph.D. (Innovation & Entrepreneurship)', 27);
+
+INSERT INTO Courses (CourseName, CollegeID) 
+VALUES
+('PGP (Post Graduate Programme)', 28),
+('Doctoral Programme (DPM)', 28),
+('Five Year Integrated Programme in Management (IPM)', 28),
+('Five Year Integrated Programme in Law (IPL)', 28),
+('Executive Post Graduate Diploma In Sports Management (EPGDSM)', 28),
+('One Year Post Graduate Programme in Management for Executives (PGPx)', 28),
+('Bachelor of Business Administration + Bachelor of Laws [BBALLB]', 28);
+
+INSERT INTO Courses (CourseName, CollegeID) 
+VALUES
+('Post Graduate Diploma in Management (Rural Management)', 29),
+('Fellow Programme in Management (Rural Management)', 29),
+('Post Graduate Diploma in Management (Rural Management-Executive)', 29);
+
+INSERT INTO Courses (CourseName, CollegeID) 
+VALUES 
+('MBA in Data Science and Artificial Intelligence', 30),
+('B.Tech in Computer Science and Engineering', 30),
+('B.Tech in Data Science and Engineering', 30),
+('M.Tech in Computer Science and Engineering with specialization in Systems Engineering', 30);
+
+INSERT INTO Courses (CourseName, CollegeID) 
+VALUES 
+('Post Graduate Diploma in Management (PGDM)', 31),
+('Post Graduate Program in Management (PGPM)', 31),
+('Post Graduate Programme in Management Flex', 31),
+('Post Graduate Global Executive Program in Management (PGXPM)', 31),
+('Professional Certificate Course in Digital Marketing', 31),
+('Fellow Programme in Management (FPM)', 31);
+
+INSERT INTO Courses (CourseName, CollegeID) 
+VALUES 
+('Bachelor of Technology [B.Tech]', 32),
+('Master of Business Administration [MBA]', 32),
+('Master of Technology [M.Tech]', 32),
+('Ph.D. (Information Technology)', 32),
+('Ph.D. (Management Studies)', 32),
+('Bachelor of Technology [B.Tech] + Master of Technology [M.Tech]', 32),
+('Bachelor of Technology [B.Tech] + Master of Business Administration [MBA]', 32),
+('Master of Business Administration [MBA] + Ph.D', 32),
+('Master of Technology [M.Tech] + Ph.D', 32),
+('Post Graduate Certificate in Machine Learning and Big Data Analytics', 32),   
+('Executive Post Graduate Certificate in Machine Learning and Big Data Analytics', 32);
 
 
