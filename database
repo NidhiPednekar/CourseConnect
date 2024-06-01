@@ -60,7 +60,27 @@ VALUES
 ('Institute of Rural Management Anand', 'Post Box No. 60, Anand, Gujarat, 388001', '02692-260-391'),
 ('Indian Institute of Technology Mandi', 'Parashar Road, Tehsil Sadar, Mandi, Himachal Pradesh, 175005', '01905-237-989'),
 ('Great Lakes Institute of Management', 'East Coast Road, Manamai Village, Thirukazhukundram, Tamil Nadu, 603102', '044-3080-9000'),
-('Indian Institute of Information Technology Allahabad', 'Devghat, Jhalwa, Prayagraj, Uttar Pradesh, 211015', '0532-292-2025');
+('Indian Institute of Information Technology Allahabad', 'Devghat, Jhalwa, Prayagraj, Uttar Pradesh, 211015', '0532-292-2025'),
+('Indian Institute of Science', 'CV Raman Rd, Bengaluru, Karnataka, 560012', '080-2293-2004'),
+('Institute of Chemical Technology', 'Nathalal Parekh Marg, Matunga, Mumbai, Maharashtra, 400019', '022-3361-2222'),
+('Jamia Millia Islamia', 'Jamia Nagar, Okhla, New Delhi, Delhi, 110025', '011-2698-1717'),
+('Aligarh Muslim University', 'AMU Campus, Aligarh, Uttar Pradesh, 202002', '0571-270-0935'),
+('University of Hyderabad', 'Prof CR Rao Road, Gachibowli, Hyderabad, Telangana, 500046', '040-2313-2102'),
+('Banaras Hindu University', 'Varanasi, Uttar Pradesh, 221005', '0542-236-8558'),
+('Jawaharlal Nehru University', 'New Mehrauli Road, New Delhi, Delhi, 110067', '011-2670-4090'),
+('Jadavpur University', '188, Raja S.C. Mallick Rd, Kolkata, West Bengal, 700032', '033-2414-6666'),
+('Anna University', 'Sardar Patel Road, Guindy, Chennai, Tamil Nadu, 600025', '044-2235-8491'),
+('University of Calcutta', 'Senate House, 87/1, College Street, Kolkata, West Bengal, 700073', '033-2241-0071'),
+('Savitribai Phule Pune University', 'Ganeshkhind, Pune, Maharashtra, 411007', '020-2569-6064'),
+('Osmania University', 'Osmania University Main Rd, Amberpet, Hyderabad, Telangana, 500007', '040-2768-2363'),
+('Delhi Technological University', 'Shahbad Daulatpur, Main Bawana Road, New Delhi, Delhi, 110042', '011-2787-1018'),
+('University of Mumbai', 'CST Road, Kalina, Santacruz East, Mumbai, Maharashtra, 400098', '022-2654-3000'),
+('Panjab University', 'Sector 14, Chandigarh, 160014', '0172-253-4818'),
+('Himachal Pradesh University', 'Summer Hill, Shimla, Himachal Pradesh, 171005', '0177-283-0911'),
+('University of Rajasthan', 'JLN Marg, Jaipur, Rajasthan, 302004', '0141-270-8824'),
+('Birla Institute of Technology, Mesra', 'Mesra, Ranchi, Jharkhand, 835215', '0651-227-5444'),
+('Visvesvaraya National Institute of Technology', 'South Ambazari Road, Nagpur, Maharashtra, 440010', '0712-222-2828'),
+('Maulana Azad National Institute of Technology', 'Link Road Number 3, Near Kali Mata Mandir, Bhopal, Madhya Pradesh, 462003', '0755-405-1000');
 
 CREATE TABLE IF NOT EXISTS Courses (
     CourseID INT AUTO_INCREMENT PRIMARY KEY,
@@ -380,4 +400,123 @@ VALUES
 ('Post Graduate Certificate in Machine Learning and Big Data Analytics', 32),   
 ('Executive Post Graduate Certificate in Machine Learning and Big Data Analytics', 32);
 
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 33),
+('Ph.D. in Management', 33),
+('Executive MBA', 33);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (Pharmaceutical Management)', 34),
+('Ph.D. in Management', 34),
+('Post Graduate Diploma in Chemical Technology Management', 34);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 35),
+('Master of Business Administration (International Business)', 35),
+('Ph.D. in Management', 35);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 36),
+('Master of Business Administration (International Business)', 36),
+('Ph.D. in Management', 36);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 37),
+('Ph.D. in Management', 37),
+('Executive MBA', 37);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 38),
+('Master of Business Administration (International Business)', 38),
+('Ph.D. in Management', 38);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 39),
+('Ph.D. in Management', 39),
+('Executive MBA', 39);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 40),
+('Ph.D. in Management', 40),
+('Post Graduate Diploma in Management', 40);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 41),
+('Master of Business Administration (Technology Management)', 41),
+('Ph.D. in Management', 41);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 42),
+('Master of Business Administration (Finance)', 42),
+('Ph.D. in Management', 42);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 43),
+('Master of Business Administration (Marketing)', 43),
+('Ph.D. in Management', 43);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 44),
+('Master of Business Administration (Human Resource Management)', 44),
+('Ph.D. in Management', 44);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 45),
+('Master of Business Administration (Technology Management)', 45),
+('Ph.D. in Management', 45);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 46),
+('Master of Business Administration (Finance)', 46),
+('Ph.D. in Management', 46);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 47),
+('Master of Business Administration (International Business)', 47),
+('Ph.D. in Management', 47);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 48),
+('Ph.D. in Management', 48),
+('Post Graduate Diploma in Management', 48);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 49),
+('Master of Business Administration (Service Management)', 49),
+('Ph.D. in Management', 49);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 50),
+('Ph.D. in Management', 50),
+('Post Graduate Diploma in Management', 50);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 51),
+('Master of Business Administration (Technology Management)', 51),
+('Ph.D. in Management', 51);
+
+INSERT INTO Courses (CourseName, CollegeID)
+VALUES
+('Master of Business Administration (MBA)', 52),
+('Ph.D. in Management', 52),
+('Post Graduate Diploma in Management', 52);
 
