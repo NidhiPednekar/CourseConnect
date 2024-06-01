@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body::before {
+    background: url('college.jpg') no-repeat center center fixed;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: blur(1.5px);
+    z-index: -1;
+}
+.container {
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#searchBar {
+    display: block;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+button {
+    display: block;
+    background-color: #329bbb;
+    margin: 12px auto;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 18px;
+}
+
+button:hover {
+    background-color: #228f91;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.college {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.college:last-child {
+    border-bottom: none;
+}
