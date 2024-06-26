@@ -7,14 +7,55 @@
     <link rel="stylesheet" href="style4.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Explore Colleges</h1>
-        <input type="text" id="searchBar" placeholder="Enter college name to be searched">
-        <button onclick="searchColleges()">Search</button>
-        <div id="results"></div>
-    </div>
-    <script src="script4.js">
-      
-    </script>
+    <header>
+        <div class="container">
+            <h1>COURSE CONNECT</h1>
+            <nav>
+                <ul class="items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#search">Search Colleges</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+            <img src="hero.jpg" alt="">
+            <h2>Welcome to Course Connect</h2>
+            <p>Your ultimate guide to finding the best IT and Management colleges.</p>
+            <p>Welcome to CourseConnect!
+                At CourseConnect, we're dedicated to helping you navigate the exciting journey of higher education. Whether you're exploring colleges, searching for the perfect program, or planning your academic future, we're here to empower your decisions with comprehensive resources and personalized insights.
+                Start exploring today and find the path that's right for you. Your educational journey begins here, at CourseConnect.</p>
+    </section>
+
+    <section id="search">
+        <div class="container">
+            <h2>Search Colleges</h2>
+            <p>
+                Welcome to CourseConnect's comprehensive college search tool. Whether you're beginning your college journey or looking to refine your choices, our robust search features are designed to simplify the process and help you find the perfect fit.
+            </p>
+            <div class="search-container">
+                <input type="text" id="searchBar" placeholder="Enter college name">
+                <button id="searchButton" onclick="searchColleges()">Search</button>
+            </div>
+            <div id="results"></div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Course Connect is dedicated to helping students find the perfect college for their Information Technology and Management studies. We provide comprehensive information on a wide range of colleges, making it easy for you to find the right fit for your educational needs.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>&copy; 2024 Course Connect. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script4.js"></script>
 </body>
 </html>
